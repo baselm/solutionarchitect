@@ -16,7 +16,7 @@ sudo $(command -v solana-sys-tuner) --user $(whoami) > sys-tuner.log 2>&1 &
 solana-keygen new -o ~/environment/identity-keypair.json
 solana config set --keypair ~/environment/identity-keypair.json 
 ```
-## get some fund AIRDROP 
+## Get some free SOL  
 ```sh
 solana balance 
 ```
@@ -25,6 +25,7 @@ solana balance
 ```sh
 sudo amazon-linux-extras install rust1
 sudo yum install libudev-devel
+sudo yum install openssl-devel
 ```
 ### Install spl-token-cli
 ```sh
